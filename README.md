@@ -24,4 +24,4 @@ cd build
 cmake ..
 make -j$(nproc)
 
-or use "Releases" - https://github.com/Yabokua/wxwidgets-opengl/releases
+Or use "Releases" - https://github.com/Yabokua/wxwidgets-and-opengl/releases
