@@ -1,0 +1,28 @@
+cat > .gitignore << 'EOF'
+# CMake build directories
+/build/
+/build-*/
+
+# Bin output (precompiled executables, archives)
+bin/
+
+# CMake artifacts
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Compiled binaries
+MyOpenGLApp
+*.so
+*.o
+*.out
+
+# Logs and temp
+*.log
+*.tmp
+
+# OS junk
+.DS_Store
+Thumbs.db
+
